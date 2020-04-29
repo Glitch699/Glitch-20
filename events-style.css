@@ -67,7 +67,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 }
 
 /* Dynamic Background*/
-@keyframes bgcolor {
+/* @keyframes bgcolor {
   0% {
       background: url("img/bg1.jpg") no-repeat center center fixed;
       -webkit-background-size: cover;
@@ -99,7 +99,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+} */
 
   /* 60% {
     background: url("img/bg5.jpg") no-repeat center center fixed;
@@ -117,7 +117,7 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-size: cover;
   } */
 
-  80% {
+  /* 80% {
     background: url("img/bg7.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -133,15 +133,16 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     background-size: cover;
   }
 
-}
+} */
 
 body {
-  -webkit-animation: bgcolor 15s infinite;
-  animation: bgcolor 15s infinite;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
+  /* -webkit-animation: bgcolor 15s infinite; */
+  /* animation: bgcolor 15s infinite; */
+  /* -webkit-animation-direction: alternate; */
+  /* animation-direction: alternate; */
   font-family: 'Fondamento', cursive;
   font-size: larger;
+  background: url("img/bg7.jpg");
 }
 
 .link{
